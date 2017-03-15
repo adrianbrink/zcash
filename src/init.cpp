@@ -669,6 +669,8 @@ static void ZC_LoadParams()
  */
 bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
 {
+    do_absolutely_nothing();
+
     // ********************************************************* Step 1: setup
 #ifdef _MSC_VER
     // Turn off Microsoft heap dump noise

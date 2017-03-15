@@ -13,6 +13,10 @@
 class CScheduler;
 class CWallet;
 
+extern "C" {
+    void do_absolutely_nothing();
+}
+
 namespace boost
 {
 class thread_group;
